@@ -1,4 +1,4 @@
-## Écrivez votre code ici !
+# Écrivez votre code ici !
 def square(number):
     if isinstance(number, (int, float)):
         return number*number

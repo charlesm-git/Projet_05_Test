@@ -20,7 +20,6 @@ class Library:
                 break
 
     def borrow_book(self, book_title):
-        book_to_borrow = None
         for book in self.books:
             if book.title == book_title:
                 self.books.remove(book)
@@ -41,4 +40,3 @@ class Library:
     def borrowed_books(self):
         books_titles = [book.title for book in self.borrow_books]
         print(books_titles)
-

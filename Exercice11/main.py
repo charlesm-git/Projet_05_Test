@@ -1,4 +1,4 @@
-## Écrivez votre code ici !
+# Écrivez votre code ici !
 class BankAccount:
     def __init__(self, account_holder: str, balance: float):
         self.account_holder = account_holder

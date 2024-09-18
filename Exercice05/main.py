@@ -6,7 +6,8 @@ def sum(a, b):
     :return: the sum of a and b
     """
     return a + b
- 
+
+
 def subtraction(a, b):
     """
     Does the subtraction of number a and b
